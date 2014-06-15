@@ -19,13 +19,13 @@ def main():
 
     class1,class2=read_data()
 
-    mean1=np.mean(class1,axis=0)
-    mean2=np.mean(class2,axis=0)
+    mean1=np.mean(class1,axis=0)#求类1的原始中心m1
+    mean2=np.mean(class2,axis=0)#类2的原始中心m2
 
     #calculate variance within class
-    Sw = np.dot((class1-mean1).T,(class1-mean1))+np.dot((class2-mean2).T,(class2-mean2))
+    Sw = np.dot((class1-mean1).T,(class1-mean1))+np.dot((class2-mean2).T,(class2-mean2))#Sw,类内的距离和
 
-    #calculate weights which maximize linear separation
+    #calculate weights which maximize linear separation，求解w(推到过程请看LDA introduction simple)
     w=np.dot(np.linalg.inv(Sw),(mean2-mean1))
 
     print "vector of max weights",w

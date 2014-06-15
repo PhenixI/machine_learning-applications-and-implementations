@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceRec_Fisherfaces", "FaceRec_Fisherfaces\FaceRec_Fisherfaces.vcxproj", "{9F46A6E0-05DE-44F2-9CB9-3699D448E3AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F46A6E0-05DE-44F2-9CB9-3699D448E3AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F46A6E0-05DE-44F2-9CB9-3699D448E3AC}.Debug|Win32.Build.0 = Debug|Win32
+		{9F46A6E0-05DE-44F2-9CB9-3699D448E3AC}.Release|Win32.ActiveCfg = Release|Win32
+		{9F46A6E0-05DE-44F2-9CB9-3699D448E3AC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

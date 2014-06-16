@@ -17,4 +17,4 @@ machine learing examples
 
 2.PLA
    
-   a.感知机算法的实现。感知机算法的原始形式可参考《统计机器学习》、台湾大学 林轩田的机器学习课程或者
+   a.感知机算法的实现。感知机算法的原始形式可参考《统计机器学习》、台湾大学 林轩田的机器学习课程、pattern recognition and machine learning或者https://github.com/PhenixI/machine_learning-applications-and-implementations/blob/master/PLA(Perceptron)/PLA%20introduction%20simple.docx

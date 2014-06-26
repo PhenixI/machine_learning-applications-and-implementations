@@ -22,3 +22,6 @@ machine learing examples
 3.AdaBoost
    a.AdaBoost 算法的实现
    b.AdaBoost 相关内容可参考https://github.com/PhenixI/machine_learning-applications-and-implementations/blob/master/AdaBoost/Introduction%20of%20AdaBoost%20%E7%AE%80%E4%BB%8B.docx 或machine learning in action 以及统计机器学习
+   
+4.k-means
+   包括k-means的实现以及二分kMenas的实现
